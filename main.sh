@@ -23,7 +23,7 @@ BOLD='\033[1m'
 # 5. grep, awk, trap (very important basic unix tools)
 
 clear
-cd ~/Downloads/Songs
+cd ~/Songs
 
 status_line=""
 # Function to extract and display thumbnail
