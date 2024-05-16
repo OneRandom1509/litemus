@@ -12,7 +12,7 @@ SCRIPT_NAME="main.sh"
 # Function to install dependencies
 install_dependencies() {
     echo "Installing dependencies..."
-    sudo pacman -S --noconfirm bc ffmpeg viu grep awk
+    #sudo yay -S --noconfirm bc ffmpeg viu grep awk
     echo "${GREEN}${BOLD}Dependencies installed."
     echo -e "${YELLOW}In order to install smenu, you need to use yay or build from source.\nNote: Without this the script will NOT run!\n"
 }
@@ -43,7 +43,7 @@ if [ $? -eq 0 ]; then
     # Make the script executable
 
     # Install dependencies
-    install_dependencies
+    #install_dependencies
 
     # Create alias for the music player
     create_alias
